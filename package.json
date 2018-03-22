@@ -4,7 +4,7 @@
   "author": {
     "name": "Stanislas Polu",
     "email": "polu.stanislas@gmail.com",
-    "url": "http://github.com/spolu" 
+    "url": "http://github.com/spolu"
   },
   "version": "0.3.22-alpha.6",
   "dependencies": {
@@ -14,7 +14,7 @@
     "mkdirp": "0.3.x",
     "octonode": "0.6.x",
     "fs-extra": "0.8.x",
-    "npm": "1.4.x",
+    "npm": "5.7.1",
     "semver": "2.2.x",
     "tar": "0.1.x",
     "request": "2.36.x",
@@ -25,9 +25,9 @@
     "openpgp": "0.6.x",
     "tail": "0.3.x"
   },
-  "repository" : { 
-    "type" :  "git",
-    "url" :   "http://github.com/breach/breach_core.git" 
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/breach/breach_core.git"
   },
   "bugs": {
     "url": "https://github.com/breach/breach_core/issues"
