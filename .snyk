@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - gig.fs > request > hawk:
+        patched: '2019-05-25T07:20:23.672Z'
+  'npm:http-signature:20150122':
+    - gig.fs > request > http-signature:
+        patched: '2019-05-25T07:20:23.672Z'
+  'npm:mime:20170907':
+    - gig.fs > request > mime:
+        patched: '2019-05-25T07:20:23.672Z'
+    - express > accepts > mime:
+        patched: '2019-05-25T07:20:23.672Z'
+    - gig.fs > express > send > mime:
+        patched: '2019-05-25T07:20:23.672Z'
+    - gig.fs > request > form-data > mime:
+        patched: '2019-05-25T07:20:23.672Z'
+    - gig.fs > express > connect > send > mime:
+        patched: '2019-05-25T07:20:23.672Z'
+  'npm:negotiator:20160616':
+    - gig.fs > express > connect > negotiator:
+        patched: '2019-05-25T07:20:23.672Z'
+  'npm:qs:20140806-1':
+    - gig.fs > request > qs:
+        patched: '2019-05-25T07:20:23.672Z'
+    - gig.fs > express > connect > qs:
+        patched: '2019-05-25T07:20:23.672Z'
+  'npm:request:20160119':
+    - gig.fs > request:
+        patched: '2019-05-25T07:20:23.672Z'
